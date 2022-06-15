@@ -29,13 +29,19 @@ p{
 }
 
 /*Make all inputs have a 3px red border*/
-
+input{
+    border: 3px red solid;
+}
 
 /* Give everything with the class 'hello' a white background*/
-
+.hello{
+    background-color: white;
+}
 
 /* Give the element with id 'special' a 2px solid blue border(pick your own rgb blue)*/
-
+#special{
+    border: 2px solid rgb(0, 0, 255);
+}
 
 /*Make all the <p>'s that are nested inside of divs 25px font(font-size: 25px)*/
 
